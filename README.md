@@ -61,8 +61,11 @@ Please make, enjoy, feedback and share improvements.
 ## Future Features
 + 3D printed box
 + Cell Impedance Measurement
++ PCB
++ Inbuilt Load Bank Design
 + Multiple Relay for fast discharge
 + Inbuilt relays so XT60 Connection included
 + Current meter for capacity measurements
 + Cell balancing
++ Charging Circuit to LipoBank
 
