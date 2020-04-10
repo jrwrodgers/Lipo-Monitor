@@ -62,6 +62,7 @@ Please make, enjoy, feedback and share improvements.
 + 3D printed box
 + Cell Impedance Measurement
 + PCB
++ Smart discharge algorithm since the voltage under load is lower. When the load is disconnected there is a "bounce back" of resting lipo voltage. Maybe a 2 stage approach to estimate the voltage under load to give a resting voltage of the desired sotrage voltage.
 + Inbuilt Load Bank Design
 + Multiple Relay for fast discharge
 + Inbuilt relays so XT60 Connection included
