@@ -9,6 +9,8 @@ Please make, enjoy, feedback and share improvements.
 + Displays Data using OLED screen
 + Controls a Relay to a load bank to allow controlled discharge of Lipo to Storage voltage
 
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Lipo1.jpg "Prototype1")
+
 ## Parts List
 + Pro Mini or Arduino Nano
 + SPI SSD1306 OLED 128x64
@@ -21,6 +23,9 @@ Please make, enjoy, feedback and share improvements.
 + Assortment of header pins and wires
 
 ## Assembly
+
++ SCHEMATIC HERE
+  
 ![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/lipo.png "Logo Title Text 1")
 
 
@@ -38,16 +43,22 @@ Please make, enjoy, feedback and share improvements.
 
 ### Screen 1
 + Cell Voltages Measured
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen1.jpg "Screen1")
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen1_2.jpg "Screen1")
+
 
 ### Screen 2
 + Cell Voltage Delta to Average
 + Good check of balancing and potential bad cells
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen2.jpg "Screen2")
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen2_2.jpg "Screen2")
 
 ### Screen 3
 + Storage Mode Checks
 + Checks that the Lipo is above storage charge
 + Checks that the cells are balanced ahead of discharge
 + If all checks pass - countdown 5s before storage mode starts
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen3_1.jpg "Screen3_checks")
 
 ### Screen 4
 + Storgage Mode
@@ -55,8 +66,10 @@ Please make, enjoy, feedback and share improvements.
 + Relay closed to Load Bank Control Line
 + Graph of Cell average voltage with time - updates every 2 seconds
 + Relay closed when storage charge acheived
-
-
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen3_2.jpg "Screen3")
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen3_3.jpg "Screen3")
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen3_4.jpg "Screen3")
+![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen3_5.jpg "Screen3")
 
 ## Future Features
 + 3D printed box
