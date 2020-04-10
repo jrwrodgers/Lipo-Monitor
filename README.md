@@ -82,6 +82,7 @@ Balance Lead Voltage Divider Setup:
 
 ## Future Features
 + 3D printed box
++ Dynamics nCell detection - 2s/3s/4s/5s/6s
 + Cell Impedance Measurement
 + PCB
 + Smart discharge algorithm since the voltage under load is lower. When the load is disconnected there is a "bounce back" of resting lipo voltage. Maybe a 2 stage approach to estimate the voltage under load to give a resting voltage of the desired sotrage voltage.
