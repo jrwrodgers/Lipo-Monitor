@@ -1,18 +1,18 @@
 # Lipo-Monitor
 
-Pro Mini Controlled Lipo monitor for checking health and controlling to storage voltage. 
-I've lost a number of batteries through leaving them fully charged or not noticing that one cell has gone bad only to find out when I get to the flying field and having my session cut short. This device not only offers and easy check of Lipo Health but allows a simple set up with switching a relay to a load bank to allow a controlled discharge down to a storage voltage. This can easily be used with banks of Lipos on a parallel board. 
+Pro Mini controlled LiPo monitor for checking health and controlling to storage voltage. 
+I've lost a number of batteries through leaving them fully charged or not noticing that one cell has gone bad only to find out when I get to the flying field and having my session cut short. This device not only offers and easy check of LiPo Health but allows a simple set up with switching a relay to a load bank to allow a controlled discharge down to a storage voltage. This can easily be used with banks of LiPos on a parallel board. 
 
 Please make, enjoy, feedback and share improvements.
 
 + Measures individual cell voltages
 + Displays Data using OLED screen
-+ Controls a Relay to a load bank to allow controlled discharge of Lipo to Storage voltage
++ Controls a Relay to a load bank to allow controlled discharge of LiPo to Storage voltage
 
 ![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Lipo1.jpg "Prototype1")
 
 ## Parts List
-+ Pro Mini or Arduino Nano
++ Pro Mini 5v or Arduino Nano
 + SPI SSD1306 OLED 128x64
 + 1xPush Button Switch
 + 1xWS8121b LED
@@ -38,7 +38,7 @@ Please make, enjoy, feedback and share improvements.
 + Error +/-3%
 
 ## How to
-+ Connect Lipo (Check polarity before connecting)
++ Connect LiPo (Check polarity before connecting)
 + Button click will move between modes and screens
 
 ### Screen 1
@@ -55,7 +55,7 @@ Please make, enjoy, feedback and share improvements.
 
 ### Screen 3
 + Storage Mode Checks
-+ Checks that the Lipo is above storage charge
++ Checks that the LiPo is above storage charge
 + Checks that the cells are balanced ahead of discharge
 + If all checks pass - countdown 5s before storage mode starts
 ![alt text](https://github.com/jrwrodgers/Lipo-Monitor/blob/master/images/Screen3_1.jpg "Screen3_checks")
@@ -81,5 +81,5 @@ Please make, enjoy, feedback and share improvements.
 + Inbuilt relays so XT60 Connection included
 + Current meter for capacity measurements
 + Cell balancing
-+ Charging Circuit to LipoBank
++ Charging Circuit to LiPo Bank
 
