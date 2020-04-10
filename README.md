@@ -36,6 +36,15 @@ Please make, enjoy, feedback and share improvements.
 + Use ratio of measured cell voltage over the displayed cell voltage and change the correction factors in the code
 + Check with a another battery of different voltage
 + Error +/-3%
+	
+Balance Lead Voltage Divider Setup:  
+|Cells  |4.2v	|3v	   |R1	  |R2	    |Max V	|Min V  |	I Max mA	|Max Digital	|Min Digital	|Delta	|Resolution v|
+| ----| ----| ----| ----| ----| ----| ----| ----| ----| ----| ----| ----|
+|4Cell	|16.8	|12	   |6800	|30000	|3.10	  |2.22	  |0.45652	  |636	        |454	        |182	  |0.0049      |
+|3Cell	|12.6	|9	   |6800	|20000	|3.20	  |2.28	  |0.47015	  |655	        |468	        |187	  |0.0049      |
+|2Cell	|8.4	|6	   |6800	|10000	|3.40	  |2.43	  |0.50000	  |696	        |497	        |199	  |0.0049      |
+|1Cell	|4.2	|3	   |0	    |0	    |4.20	  |3.00	  |0.00000	  |860	        |614	        |246	  |0.0049      |
+
 
 ## How to
 + Connect LiPo (Check polarity before connecting)
